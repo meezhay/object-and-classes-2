@@ -6,9 +6,12 @@ class car:
 
   def getSpeed(self):
     print('maximum speed is: ', self.speed)
-
+  def setSpeed(self, speed):
+    self.speed = speed
 
 BMW = car(2018, 155)
 FORD = car(2016, 140)
 
+BMW.getSpeed()
+BMW.setSpeed(143)
 BMW.getSpeed()
